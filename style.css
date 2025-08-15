@@ -41,11 +41,11 @@ nav a.active {
 }
 .hero-text 
    {
-    font-family: 'Itim', cursive; /* Use 'Itim' font, with a fallback */
-    font-weight: 400; /* Set the font weight to 400 (Regular) */
-    font-size: 36px; /* Set the font size to 36px */
-    line-height: 1.2; /* Adjust line height for better spacing. Figma's 100% line height can be difficult to replicate perfectly in CSS, so 1.2 or 1.1 is a good starting point. */
-    margin-bottom: 20px; /* Keep the existing margin */
+    font-family: 'Itim', cursive; 
+    font-weight: 400; 
+    font-size: 36px; 
+    line-height: 1.2; 
+    margin-bottom: 20px; 
     font: #FFFFFF;
     position: absolute;
     top: 50%;
