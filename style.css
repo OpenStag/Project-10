@@ -1,0 +1,172 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+/*nave bar*/
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: irish Grover;
+  
+}
+
+.logo 
+{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img 
+{
+    width: 40px;
+    margin-right: 10px;
+}
+nav a 
+{
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Irish Grover', regular;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+nav a.active 
+{
+    color: red;
+}
+
+
+
+.tracking-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: poppins;
+  font-style: bold;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-style: none;
+  font-weight: 400;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.track-btn {
+  width: 100%;
+  padding: 14px;
+  background: #d62828; /* Pizza Hut Red */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.track-btn:hover {
+  background: #b81e1e;
+}
+
+.order-status {
+  font-family: poppins;
+  font-style: bold;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.help {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.help p {
+  margin: 5px 0;
+}
+/*footer*/
+footer
+{
+    background: #f5f5f5;
+    padding: 20px 40px;
+    font-size: 14px;
+    font-family: poppins;
+}
+.footer-sections 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-sections div 
+{
+    margin: 10px;
+}
+.footer-sections h4 
+{
+    margin-bottom: 8px;
+}
+.footer-sections a 
+{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+.social 
+{
+    text-align: end;
+    margin-top: 15px;
+}
+.social img 
+{
+    width: 25px;
+    margin: 0 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom 
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
