@@ -1,0 +1,248 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.main-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #e4002b;
+}
+
+.top-nav ul li {
+    margin-left: 20px;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.top-nav ul li a:hover {
+    border-bottom-color: #e4002b;
+}
+
+.top-nav ul li a.active {
+    border-bottom-color: #e4002b;
+}
+
+.menu-tabs {
+    background-color: #e4002b;
+    padding: 0;
+}
+
+.menu-tabs ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.menu-tabs ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.menu-tabs ul li a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-right: 1px solid #e75c6c;
+}
+
+.menu-tabs ul li:last-child a {
+    border-right: none;
+}
+
+.menu-tabs ul li a.active {
+    background-color: #c00020;
+}
+
+.menu-content {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pizza-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+.pizza-item:last-child {
+    border-bottom: none;
+}
+
+.pizza-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.pizza-details {
+    flex-grow: 1;
+}
+
+.pizza-details h2 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+}
+
+.pizza-details p {
+    margin: 0 0 10px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.price-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e4002b;
+}
+
+.add-to-cart {
+    background-color: #fff;
+    color: #e4002b;
+    border: 1px solid #e4002b;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #e4002b;
+    color: #fff;
+}
+
+.add-to-cart i {
+    margin-right: 8px;
+}
+
+.main-footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 30px 0 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.footer-section {
+    width: 23%;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+    line-height: 1.8;
+}
+
+.social-media {
+    border-top: 1px solid #eee;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-media h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.social-icons a {
+    color: #e4002b;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #c00020;
+}
+
+.copyright {
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.copyright p {
+    margin: 0;
+}
