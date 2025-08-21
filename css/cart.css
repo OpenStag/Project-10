@@ -49,8 +49,28 @@ nav a
     color: black;
 }
 nav a.active 
-{
-    color: red;
+{ color: red;
+}.checkout-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.checkout-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.back-arrow {
+  position: absolute;
+  left: 15px;
+  font-size: 30px;
+  cursor: pointer;
 }
 .item {
     border: 1px solid #ddd;
@@ -116,6 +136,7 @@ nav a.active
     cursor: pointer;
     margin-top: 15px;
 }
+
 footer
 {
     background: #f5f5f5;
