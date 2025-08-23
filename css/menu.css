@@ -11,6 +11,12 @@ body {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .header-container {
@@ -32,9 +38,23 @@ body {
 }
 
 .logo h1 {
-    font-size: 24px;
-    font-weight: normal;
-    color: #e4002b;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Irish Grover', serif;
+    color: #000000;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Irish Grover', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+nav a.active {
+    color: red;
 }
 
 .top-nav ul li {
@@ -172,77 +192,52 @@ body {
     margin-right: 8px;
 }
 
-.main-footer {
-    background-color: #fff;
-    border-top: 1px solid #ddd;
-    padding: 30px 0 10px 0;
-    text-align: center;
+/*footer*/
+footer
+{
+    background: #f5f5f5;
+    padding: 20px 40px;
     font-size: 14px;
-    color: #666;
+    font-family: poppins;
 }
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
+.footer-sections 
+{
     display: flex;
     justify-content: space-between;
-    text-align: left;
-    padding-bottom: 20px;
+    flex-wrap: wrap;
 }
-
-.footer-section {
-    width: 23%;
+.footer-sections div 
+{
+    margin: 10px;
 }
-
-.footer-section h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #333;
+.footer-sections h4 
+{
+    margin-bottom: 8px;
 }
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-section ul li a {
+.footer-sections a 
+{
+    display: block;
+    color: black;
     text-decoration: none;
-    color: #666;
-    line-height: 1.8;
+    margin-bottom: 4px;
 }
-
-.social-media {
-    border-top: 1px solid #eee;
-    padding: 20px 0;
-    max-width: 1200px;
-    margin: 0 auto;
+.social 
+{
+    text-align: end;
+    margin-top: 15px;
 }
-
-.social-media h3 {
-    margin: 0 0 10px 0;
-    font-size: 16px;
-    color: #333;
+.social img 
+{
+    width: 97px;
+    height: auto;
+    margin: 0 5px;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.social-icons a {
-    color: #e4002b;
-    font-size: 24px;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #c00020;
-}
-
-.copyright {
-    padding-top: 10px;
-    border-top: 1px solid #eee;
+.footer-bottom 
+{
+    text-align: center;
     margin-top: 10px;
-}
-
-.copyright p {
-    margin: 0;
+    font-size: 12px;
+    color: gray;
 }
