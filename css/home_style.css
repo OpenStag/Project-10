@@ -25,11 +25,17 @@ header {
   margin-right: 10px;
 }
 
+.logo h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Irish Grover', serif;
+}
+
 nav a {
   margin: 0 15px;
   text-decoration: none;
   color: black;
-  font-family: 'Irish Grover', regular;
+  font-family: 'Irish Grover', serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -192,6 +198,8 @@ footer {
 .social img {
   width: 25px;
   margin: 0 5px;
+  
+  
 }
 .footer-bottom {
   text-align: center;

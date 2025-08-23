@@ -158,7 +158,8 @@ footer
 }
 .social img 
 {
-    width: 25px;
+    width: 97px;
+    height: auto;
     margin: 0 5px;
     align-items: center;
     justify-content: space-between;
