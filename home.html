@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Hut</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/home_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Irish+Grover&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Navigation -->
-    <header>
-        <div class="logo">
-            <img src="images/image 1.png" alt="Pizza Hut Logo">
-            <h1>Pizza Hut</h1>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="./image/image 1.png" alt="Pizza Hut Logo">
+                <h1>Pizza Hut</h1>
+            </div>
         </div>
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">Cart & Checkout</a>
-            <a href="#">Order Tracking</a>
-        </nav>
     </header>
+
+    <nav class="menu-tabs">
+        <ul>
+            <li><a href="./home.html" class="active">HOME</a></li>
+            <li><a href="./menu.html">MENU</a></li>
+            <li><a href="./cart.html">CHECK OUT</a></li>
+            <li><a href="./ordertracking.html">ORDER TRACKING</a></li>
+        </ul>
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <img src="images/Rectangle 2.png" alt="Pizza">
+        <img src="./image/home/Rectangle 2.png" alt="Pizza">
         <div class="hero-text">
             <h2>Hot & Fresh Delivered To Your Door!</h2>
             <button>Order Now</button>
@@ -40,22 +48,22 @@
         <h3>Popular Pizzas</h3>
         <div class="pizza-list">
             <div class="pizza-item">
-                <img src="images/Rectangle 5.png" alt="Pepperoni Pizza">
+                <img src="image/home/Rectangle 5.png" alt="Pepperoni Pizza">
                 <p>Pepperoni Pizza</p>
                 <span>Rs 2,890.00</span>
             </div>
             <div class="pizza-item">
-                <img src="images/Rectangle 6.png" alt="Veggie Pizza">
+                <img src="image/home/Rectangle 6.png" alt="Veggie Pizza">
                 <p>Veggie Pizza</p>
                 <span>Rs 2,200.00</span>
             </div>
             <div class="pizza-item">
-                <img src="images/Rectangle 7.png" alt="Supreme Pizza">
+                <img src="image/home/Rectangle 7.png" alt="Supreme Pizza">
                 <p>Supreme</p>
                 <span>Rs 2,800.00</span>
             </div>
             <div class="pizza-item">
-                <img src="images/Rectangle 8.png" alt="Meat Lovers">
+                <img src="image/home/Rectangle 8.png" alt="Meat Lovers">
                 <p>Meat Lover's</p>
                 <span>Rs 2,890.00</span>
             </div>
@@ -63,42 +71,55 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-sections">
-            <div>
-                <h4>Policy Info</h4>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Use</a>
-                <a href="#">Terms of Sale</a>
-                <a href="#">Refund Policy</a>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Policy Info</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Terms of Sale</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
             </div>
-            <div>
-                <h4>Help</h4>
-                <a href="#">Pricing & Deals</a>
-                <a href="#">Careers</a>
-                <a href="#">Order Tracking</a>
-                <a href="#">Returns & Exchanges</a>
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Pricing & Deals</a></li>
+                    <li><a href="#">Faqs</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
             </div>
-            <div>
-                <h4>Information</h4>
-                <a href="#">About Us</a>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-                <a href="#">Locations</a>
+            <div class="footer-section">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Locations</a></li>
+                </ul>
             </div>
-            <div>
-                <h4>Contact Us</h4>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
                 <p>Phone: +000 1234 7895</p>
                 <p>Hours: 7 days a week<br>(10:00 am - 10:00 pm)</p>
                 <p>Email: info@pizzahut.com</p>
             </div>
         </div>
-        <div class="social">
-            <p>Follow Us On Social</p>
-            <img src="images/Rectangle 10.png" alt="Facebook, Instagram">
+        <div class="social-media">
+            <h3>Follow Us On Social</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
-        <p class="footer-bottom">© 2025 Pizza Hut. All rights reserved. | Terms & Conditions | Privacy Policy | Sitemap</p>
+        <div class="copyright">
+            <p>&copy; 2025 Pizza Hut. All rights reserved. | Terms & Conditions | Privacy Policy | Sitemap</p>
+        </div>
     </footer>
 
 </body>
+
 </html>

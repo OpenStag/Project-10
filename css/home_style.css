@@ -1,10 +1,19 @@
-
+/* Global */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-    color: #333;
+  font-family: 'Roboto', sans-serif; /* picked Roboto for clean UI */
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .main-header {
@@ -23,7 +32,9 @@ body {
 
 .logo {
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .logo img {
@@ -57,7 +68,6 @@ body {
 .top-nav ul li a.active {
     border-bottom-color: #e4002b;
 }
-
 .menu-tabs {
     background-color: #e4002b;
     padding: 0;
@@ -103,75 +113,132 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.pizza-item {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #eee;
-    padding: 20px 0;
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero img {
+  width: 100%;
+  display: block;
+  max-height: 85vh;
+}
+.hero-text {
+  font-family: 'Itim', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.hero-text h2 {
+  color: white;
+  font-size: 24px;
+  max-width: 250px;
+}
+.hero-text button {
+  background: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
-.pizza-item:last-child {
-    border-bottom: none;
+/* Popular Pizzas */
+.popular {
+  text-align: center;
+  padding: 30px 0;
+}
+.pizza-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.pizza-item img {
+  width: 320px;
+  border-radius: 50%;
+}
+.pizza-item p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+.pizza-item span {
+  color: red;
 }
 
-.pizza-image img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-right: 20px;
+/* Order Tracking */
+.tracking-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.subtitle {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.track-btn {
+  width: 100%;
+  padding: 14px;
+  background: #d62828; /* Pizza Hut Red */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.track-btn:hover {
+  background: #b81e1e;
+}
+.order-status {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.help {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.help p {
+  margin: 5px 0;
 }
 
-.pizza-details {
-    flex-grow: 1;
-}
-
-.pizza-details h2 {
-    margin: 0 0 5px 0;
-    font-size: 22px;
-}
-
-.pizza-details p {
-    margin: 0 0 10px 0;
-    color: #666;
-    font-size: 14px;
-}
-
-.price-add {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.price {
-    font-size: 20px;
-    font-weight: bold;
-    color: #e4002b;
-}
-
-.add-to-cart {
-    background-color: #fff;
-    color: #e4002b;
-    border: 1px solid #e4002b;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.add-to-cart:hover {
-    background-color: #e4002b;
-    color: #fff;
-}
-
-.add-to-cart i {
-    margin-right: 8px;
-}
-
+/* Footer */
 .main-footer {
     background-color: #fff;
     border-top: 1px solid #ddd;

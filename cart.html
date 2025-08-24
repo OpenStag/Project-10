@@ -1,107 +1,121 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cart/Checkout</title>
-<link rel="stylesheet" href="css/cart.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart/Checkout</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-<div>
-        <header>
-        <div class="logo">
-            <img src="image 1.png" alt="Pizza Hut Logo">
-            <h1>Pizza Hut</h1>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="./image/image 1.png" alt="Pizza Hut Logo">
+                <h1>Pizza Hut</h1>
+            </div>
         </div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#" class="active">Cart & Checkout</a>
-            <a href="#">Order Tracking</a>
-        </nav>
     </header>
-    <header class="checkout-header">
-    <span class="back-arrow">&#x276E;</span>
-    <h2>Cart/Checkout</h2>
-  </header>
-    </div>
 
+    <nav class="menu-tabs">
+        <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./menu.html">MENU</a></li>
+            <li><a href="./cart.html" class="active">CHECK OUT</a></li>
+            <li><a href="./ordertracking.html">ORDER TRACKING</a></li>
+        </ul>
+    </nav>
 
-<div class="container">
-<div class="item">
- <div class="item-header">
-    <span> Pepperoni Pizza</span>
-      <span>Rs 2,980.00</span>
- </div>
-      <p>Tomato sauce, mozzarella cheese, and spicy pepperoni slices.</p>
-     <button class="add-btn">+ Add to Cart</button>
-</div>
-
-    <div class="item">
-    <div class="item-header">
-          <span>BBQ Chicken</span>
-         <span>Rs 2,500.00</span>
-     </div>
-     <p>BBQ sauce base, grilled chicken, red onions, cilantro, and cheese.</p>
-     <button class="add-btn">+ Add to Cart</button>
-    </div>
-    <div class="section">
-        <div>Delivery</div>
-        <div class="delivery-options">
-         <button class="active">Delivery</button>
-            <button>Pickup</button>
+    <div class="container">
+        <div class="item">
+            <div class="item-header">
+                <span> Pepperoni Pizza</span>
+                <span>Rs 2,980.00</span>
+            </div>
+            <p>Tomato sauce, mozzarella cheese, and spicy pepperoni slices.</p>
+            <button class="add-btn">+ Add to Cart</button>
         </div>
-    </div>
-    <div class="section">
-        <div></div>
-        <div>Rs 200.00</div>
-    </div>
 
-    <div class="section">
-    <div>Payment Method</div>
-     <div class="payment-options">
-            <button class="active">Credit Card</button>
-            <button>Cash on Delivery</button>
+        <div class="item">
+            <div class="item-header">
+                <span>BBQ Chicken</span>
+                <span>Rs 2,500.00</span>
+            </div>
+            <p>BBQ sauce base, grilled chicken, red onions, cilantro, and cheese.</p>
+            <button class="add-btn">+ Add to Cart</button>
+        </div>
+        <div class="section">
+            <div>Delivery</div>
+            <div class="delivery-options">
+                <button class="active">Delivery</button>
+                <button>Pickup</button>
+            </div>
+        </div>
+        <div class="section">
+            <div></div>
+            <div>Rs 200.00</div>
+        </div>
+
+        <div class="section">
+            <div>Payment Method</div>
+            <div class="payment-options">
+                <button class="active">Credit Card</button>
+                <button>Cash on Delivery</button>
+            </div>
+        </div>
+        <div class="place-order">Place Order</div>
     </div>
-    </div>
-  <div class="place-order">Place Order</div>
-</div>
-<footer>
-        <div class="footer-sections">
-            <div>
-                <h4>Policy Info</h4>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Use</a>
-                <a href="#">Terms of Sale</a>
-                <a href="#">Refund Policy</a>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Policy Info</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Terms of Sale</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
             </div>
-            <div>
-                <h4>Help</h4>
-                <a href="#">Pricing & Deals</a>
-                <a href="#">Careers</a>
-                <a href="#">Order Tracking</a>
-                <a href="#">Returns & Exchanges</a>
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Pricing & Deals</a></li>
+                    <li><a href="#">Faqs</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
             </div>
-            <div>
-                <h4>Information</h4>
-                <a href="#">About Us</a>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-                <a href="#">Locations</a>
+            <div class="footer-section">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Locations</a></li>
+                </ul>
             </div>
-            <div>
-                <h4>Contact Us</h4>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
                 <p>Phone: +000 1234 7895</p>
                 <p>Hours: 7 days a week<br>(10:00 am - 10:00 pm)</p>
                 <p>Email: info@pizzahut.com</p>
             </div>
         </div>
-        <div class="social">
-            <p>Follow Us On Social</p>
-            <img src="image/cart/Rectangle 10.png" alt="Facebook, Instagram">
+        <div class="social-media">
+            <h3>Follow Us On Social</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
-        <p class="footer-bottom">© 2025 Pizza Hut. All rights reserved. | Terms & Conditions | Privacy Policy | Sitemap</p>
+        <div class="copyright">
+            <p>&copy; 2025 Pizza Hut. All rights reserved. | Terms & Conditions | Privacy Policy | Sitemap</p>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>
